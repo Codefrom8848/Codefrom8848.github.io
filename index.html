@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f7f2">
+  <meta name="description" content="Sabig Nepal — IT student exploring technology, business and innovation.">
+  <title>Sabig Nepal | IT Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    (function () {
+      try {
+        const saved = localStorage.getItem('sabig-theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.dataset.theme = saved || (prefersDark ? 'dark' : 'light');
+      } catch (_) {
+        document.documentElement.dataset.theme = 'light';
+      }
+    }());
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Sabig Nepal home">
+      <span class="brand-mark" aria-hidden="true">SN</span>
+      <span>Sabig Nepal<span class="brand-dot">.</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#profile">Profile</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#credentials">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+      <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+      <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.2A8.5 8.5 0 0 1 8.8 3.8 8.7 8.7 0 1 0 20.2 15.2Z"/></svg>
+      <span class="theme-label">Theme</span>
+    </button>
+  </header>
+
+  <main id="main" class="page-shell">
+    <section class="hero-grid" id="home" aria-labelledby="hero-title">
+      <div class="card hero-card">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> IT STUDENT <span class="eyebrow-divider">/</span> KATHMANDU, NEPAL</div>
+        <p class="hero-kicker">Hello, I’m</p>
+        <h1 id="hero-title">Sabig<br><span class="text-accent">Nepal.</span></h1>
+        <p class="hero-copy">A results-driven and forward-thinking IT professional aspiring to bridge the gap between <strong>technology, business and innovation.</strong></p>
+        <p class="tagline-placeholder">[Add a one-sentence personal tagline.]</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="resume.pdf" download>Download resume <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="micro-note">Resume placeholder: upload your PDF as <code>resume.pdf</code>.</p>
+      </div>
+
+      <div class="card hero-art-card">
+        <div class="card-topline"><span>TECHNOLOGY × FINANCE</span><span class="live-mark"><i></i> PORTFOLIO</span></div>
+        <img src="images/hero-fintech.svg" alt="Illustration of a finance dashboard, connected data nodes and a laptop">
+        <div class="art-caption"><span>Curious by nature.</span><span>Practical by design.</span></div>
+      </div>
+
+      <div class="card mini-card education-mini">
+        <span class="mini-label">CURRENT FOCUS</span>
+        <div class="mini-icon" aria-hidden="true">✳</div>
+        <h2>Information<br>Technology</h2>
+        <p>Master’s-level study · 2026</p>
+      </div>
+      <div class="card mini-card location-mini">
+        <span class="mini-label">BASED IN</span>
+        <div class="location-symbol" aria-hidden="true">⌖</div>
+        <h2>Kathmandu</h2>
+        <p>Nepal</p>
+      </div>
+    </section>
+
+    <section class="section-block" id="profile" aria-labelledby="profile-title">
+      <div class="section-heading"><div><p class="section-index">01 / THE PERSON</p><h2 id="profile-title">Personal profile<span class="text-accent">.</span></h2></div><p class="section-aside">A little about my background and direction.</p></div>
+      <div class="profile-grid">
+        <article class="card profile-main">
+          <span class="card-label">MY INTRODUCTION</span>
+          <p class="profile-statement">I’m an IT student interested in how digital solutions can connect technical possibilities with real organisational needs.</p>
+          <p class="body-copy">I’m passionate about leveraging digital solutions, analytical thinking and process optimisation to address real-world challenges and create meaningful organisational impact. I’m committed to continuous learning, professional excellence and developing into a technology leader who transforms ideas into practical, sustainable solutions.</p>
+        </article>
+        <article class="card profile-education">
+          <span class="card-label">EDUCATION</span>
+          <div class="education-icon" aria-hidden="true">▤</div>
+          <h3>MIT</h3>
+          <p>Himalyan College of Management</p>
+          <div class="education-meta"><span>KULST</span><span>2026</span></div>
+        </article>
+        <article class="card profile-interests">
+          <span class="card-label">PROFESSIONAL INTERESTS</span>
+          <h3>Areas I want to explore</h3>
+          <p class="placeholder-text">[Add your professional interests in IT.]</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-block" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading"><div><p class="section-index">02 / WHAT I WORK WITH</p><h2 id="skills-title">Technical skills<span class="text-accent">.</span></h2></div><p class="section-aside">A growing toolkit across software, data and infrastructure.</p></div>
+      <div class="skills-grid">
+        <article class="card skill-card skill-featured"><div class="skill-head"><span class="skill-icon" aria-hidden="true">⌘</span><span class="skill-number">01</span></div><h3>Programming</h3><p>Python</p><span class="level-placeholder">Proficiency: [Add level]</span></article>
+        <article class="card skill-card"><div class="skill-head"><span class="skill-icon" aria-hidden="true">⌗</span><span class="skill-number">02</span></div><h3>Web development</h3><p>HTML, CSS, Basic JavaScript, API fundamentals</p><span class="level-placeholder">Proficiency: [Add level]</span></article>
+        <article class="card skill-card"><div class="skill-head"><span class="skill-icon" aria-hidden="true">▦</span><span class="skill-number">03</span></div><h3>Databases</h3><p>PostgreSQL, SQL queries, Database Management</p><span class="level-placeholder">Proficiency: [Add level]</span></article>
+        <article class="card skill-card"><div class="skill-head"><span class="skill-icon" aria-hidden="true">⌘</span><span class="skill-number">04</span></div><h3>Networking</h3><p>TCP/IP, IP Addressing, Subnetting, VLAN Configuration, Cisco Packet Tracer</p><span class="level-placeholder">Proficiency: [Add level]</span></article>
+        <article class="card skill-card"><div class="skill-head"><span class="skill-icon" aria-hidden="true">◈</span><span class="skill-number">05</span></div><h3>Cybersecurity</h3><p>Network Security Fundamentals, Authentication, Access Control, Digital Certificates</p><span class="level-placeholder">Proficiency: [Add level]</span></article>
+        <article class="card skill-card"><div class="skill-head"><span class="skill-icon" aria-hidden="true">☁</span><span class="skill-number">06</span></div><h3>Cloud computing</h3><p>Cloud Computing Fundamentals, IaaS, PaaS, SaaS</p><span class="level-placeholder">Proficiency: [Add level]</span></article>
+        <article class="card skill-card skill-wide"><div class="skill-head"><span class="skill-icon" aria-hidden="true">▧</span><span class="skill-number">07</span></div><h3>Tools and software</h3><p>Git, Microsoft Excel, Microsoft Office, VS Code, Postman, pgAdmin</p><span class="level-placeholder">Proficiency: [Add level]</span></article>
+        <article class="card skill-card skill-wide"><div class="skill-head"><span class="skill-icon" aria-hidden="true">↗</span><span class="skill-number">08</span></div><h3>Other IT skills</h3><p>REST API Fundamentals, Payment System Operations, Data Processing and Automation, Troubleshooting, System Analysis and Documentation</p><span class="level-placeholder">Proficiency: [Add level]</span></article>
+      </div>
+    </section>
+
+    <section class="section-block" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading"><div><p class="section-index">03 / SELECTED WORK</p><h2 id="projects-title">Projects<span class="text-accent">.</span></h2></div><p class="section-aside">Academic and practical work focused on useful outcomes.</p></div>
+      <div class="projects-grid">
+        <article class="card project-card project-featured">
+          <div class="project-visual"><img src="images/settlement-report.svg" alt="Illustrative spreadsheet and automated file-processing graphic"><span class="visual-label">PROJECT VISUAL · REPLACE WITH SCREENSHOT</span></div>
+          <div class="project-content"><div class="project-meta"><span>01 / AUTOMATION</span><span class="type-placeholder">Type: [Specify Academic or Practical]</span></div><h3>Automated Settlement Report Processing</h3><p class="project-description">To automate the processing and segregation of reports, reducing manual Excel work and improving the efficiency of payment settlement operations.</p><div class="tag-list"><span>Python</span><span>Pandas</span><span>OpenPyXL</span></div><div class="project-outcome"><strong>Outcome</strong><p>Automated the segregation of settlement records into separate Excel files, reducing repetitive manual work and improving report organization.</p></div><details class="process-details"><summary>Development process <span>+</span></summary><p class="placeholder-text">[Add the steps you followed during development.]</p></details><p class="project-link-placeholder">[Add a GitHub or demo link, if available.]</p></div>
+        </article>
+        <article class="card project-card">
+          <div class="project-visual"><img src="images/retail-mis.svg" alt="Illustrative retail management dashboard and inventory diagram"><span class="visual-label">PROJECT VISUAL · REPLACE WITH SCREENSHOT</span></div>
+          <div class="project-content"><div class="project-meta"><span>02 / SYSTEM ANALYSIS</span><span>ACADEMIC</span></div><h3>Management Information System for ABC Retail Store</h3><p class="project-description">Proposed an integrated MIS for a medium-sized retail business operating across three branches in Nepal, addressing manual recordkeeping, disconnected spreadsheets, inventory tracking and delayed management reporting.</p><div class="tag-list"><span>Database Management</span><span>SQL</span><span>PostgreSQL</span><span>System Analysis &amp; Design</span><span>UML</span><span>DFD</span></div><div class="project-outcome"><strong>Outcome</strong><p>Developed a structured MIS proposal to improve inventory management, information sharing, reporting accuracy and coordination across three branches.</p></div><details class="process-details"><summary>Development process <span>+</span></summary><p class="placeholder-text">[Add the steps you followed during development.]</p></details><p class="project-link-placeholder">[Add a GitHub or demo link, if available.]</p></div>
+        </article>
+        <article class="card project-card">
+          <div class="project-visual"><img src="images/network-design.svg" alt="Illustrative network topology with six separated network groups"><span class="visual-label">PROJECT VISUAL · REPLACE WITH SCREENSHOT</span></div>
+          <div class="project-content"><div class="project-meta"><span>03 / NETWORKING</span><span>ACADEMIC</span></div><h3>Network Infrastructure Design for Nepal Media Design</h3><p class="project-description">Designed a structured computer network for a multi-floor organisational building, with the goal of secure communication, departmental separation and efficient network resource management.</p><div class="tag-list"><span>Cisco Packet Tracer</span><span>VLAN</span><span>IP Addressing</span><span>Subnetting</span><span>TCP/IP</span><span>Network Configuration</span></div><div class="project-outcome"><strong>Outcome</strong><p>Designed a multi-department network infrastructure with six VLANs, providing logical network separation and organised IP address allocation.</p></div><details class="process-details"><summary>Development process <span>+</span></summary><p class="placeholder-text">[Add the steps you followed during development.]</p></details><p class="project-link-placeholder">[Add a GitHub or demo link, if available.]</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-block" id="credentials" aria-labelledby="credentials-title">
+      <div class="section-heading"><div><p class="section-index">04 / LEARNING & RECOGNITION</p><h2 id="credentials-title">Certifications & achievements<span class="text-accent">.</span></h2></div><p class="section-aside">Learning milestones and experiences.</p></div>
+      <div class="credentials-grid">
+        <article class="card credential-card"><span class="credential-symbol" aria-hidden="true">✧</span><div><h3>Certifications & online courses</h3><p class="placeholder-text">[Add certificate name, issuing organisation, year and link.]</p></div></article>
+        <article class="card credential-card"><span class="credential-symbol" aria-hidden="true">◎</span><div><h3>Workshops & training</h3><p class="placeholder-text">[Add training name, organiser and year.]</p></div></article>
+        <article class="card credential-card"><span class="credential-symbol" aria-hidden="true">▤</span><div><h3>Internships & work experience</h3><p class="placeholder-text">[Add organisation, role, dates and a one-line description.]</p></div></article>
+        <article class="card credential-card"><span class="credential-symbol" aria-hidden="true">✦</span><div><h3>Academic achievements</h3><p class="placeholder-text">[Add grades, honours, awards or top marks, if applicable.]</p></div></article>
+      </div>
+    </section>
+
+    <section class="section-block" id="innovation" aria-labelledby="innovation-title">
+      <div class="section-heading"><div><p class="section-index">05 / HOW I APPROACH CHALLENGES</p><h2 id="innovation-title">Problem-solving & innovation<span class="text-accent">.</span></h2></div><p class="section-aside">A place to explain a real problem, your approach and what changed.</p></div>
+      <div class="innovation-grid">
+        <article class="card innovation-intro"><span class="card-label">MY APPROACH</span><div class="innovation-mark" aria-hidden="true">↗</div><h3>Understand the problem. Explore the options. Improve the process.</h3><p class="body-copy">[Add a real-world problem you solved with technology and describe your solution.]</p></article>
+        <article class="card innovation-details">
+          <div class="innovation-row"><span>01</span><div><h3>Problem</h3><p class="placeholder-text">[Describe the real-world problem.]</p></div></div>
+          <div class="innovation-row"><span>02</span><div><h3>Solution & tools</h3><p class="placeholder-text">[Explain what you built or did and which tools you used.]</p></div></div>
+          <div class="innovation-row"><span>03</span><div><h3>Result & next improvement</h3><p class="placeholder-text">[Describe the impact and what you would improve next.]</p></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-copy"><p class="section-index">06 / THE NEXT CONVERSATION</p><h2 id="contact-title">Let’s build<br>something <span class="text-accent">useful.</span></h2><p>I’m committed to continuous learning and exploring practical ways technology can create meaningful impact.</p><a class="button button-primary" href="mailto:nepalsab@gmail.com">Email me <span aria-hidden="true">↗</span></a></div>
+      <div class="card contact-card"><span class="card-label">CONTACT & LINKS</span><a class="contact-link" href="mailto:nepalsab@gmail.com"><span>Email</span><strong>nepalsab@gmail.com</strong><span aria-hidden="true">↗</span></a><a class="contact-link" href="https://github.com/Codefrom8848" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>Codefrom8848</strong><span aria-hidden="true">↗</span></a><div class="contact-link contact-placeholder"><span>LinkedIn</span><strong>[Add LinkedIn profile URL]</strong><span aria-hidden="true">↗</span></div><div class="contact-link contact-placeholder"><span>Other links</span><strong>[Add blog, portfolio or social links]</strong><span aria-hidden="true">↗</span></div><div class="resume-note"><span class="resume-icon" aria-hidden="true">↓</span><div><strong>Resume</strong><p>Upload your PDF as <code>resume.pdf</code> to enable the download button.</p></div></div></div>
+    </section>
+
+    <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">SN</span><span>Sabig Nepal<span class="brand-dot">.</span></span></a><p>Designed and built with HTML & CSS.</p><a href="#home" class="back-top">Back to top ↑</a></footer>
+  </main>
+
+  <script>
+    const themeButton = document.getElementById('theme-toggle');
+    const themeLabel = themeButton.querySelector('.theme-label');
+    function updateThemeButton() {
+      const isDark = document.documentElement.dataset.theme === 'dark';
+      themeButton.setAttribute('aria-pressed', String(isDark));
+      themeButton.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+      themeLabel.textContent = isDark ? 'Dark' : 'Light';
+    }
+    updateThemeButton();
+    themeButton.addEventListener('click', function () {
+      const nextTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+      document.documentElement.dataset.theme = nextTheme;
+      try { localStorage.setItem('sabig-theme', nextTheme); } catch (_) { /* Theme still works for this visit. */ }
+      updateThemeButton();
+    });
+  </script>
+</body>
+</html>

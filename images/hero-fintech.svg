@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 350" role="img" aria-labelledby="title desc">
+  <title id="title">Fintech and technology illustration</title><desc id="desc">A laptop with a simple finance dashboard, connected data nodes and a rising chart.</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d8efdc"/><stop offset="1" stop-color="#8fcba0"/></linearGradient></defs>
+  <circle cx="260" cy="170" r="145" fill="url(#g)" opacity=".55"/>
+  <circle cx="90" cy="82" r="8" fill="#23834b" opacity=".55"/><circle cx="430" cy="74" r="6" fill="#23834b" opacity=".55"/><circle cx="443" cy="270" r="9" fill="#23834b" opacity=".35"/>
+  <path d="M90 82 170 122 430 74M350 250l93 20" fill="none" stroke="#65a978" stroke-width="2" stroke-dasharray="5 7" opacity=".7"/>
+  <rect x="108" y="88" width="304" height="190" rx="18" fill="#183b28"/>
+  <rect x="120" y="100" width="280" height="166" rx="11" fill="#f8fcf7"/>
+  <rect x="138" y="118" width="75" height="9" rx="4.5" fill="#b6cbbb"/><rect x="138" y="136" width="47" height="6" rx="3" fill="#d3dfd4"/>
+  <rect x="138" y="160" width="112" height="83" rx="8" fill="#e7f3e8"/><path d="M151 220l22-23 19 9 24-29 22 15" fill="none" stroke="#23834b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M151 230h86" stroke="#bfd8c3" stroke-width="2"/>
+  <rect x="265" y="118" width="118" height="55" rx="8" fill="#edf5ed"/><circle cx="291" cy="145" r="14" fill="#c8e5ce"/><path d="M284 145l5 5 10-12" fill="none" stroke="#23834b" stroke-width="3" stroke-linecap="round"/><rect x="313" y="137" width="55" height="6" rx="3" fill="#abc3af"/><rect x="313" y="149" width="37" height="5" rx="2.5" fill="#d0ddd1"/>
+  <rect x="265" y="184" width="118" height="59" rx="8" fill="#eaf2eb"/><path d="M280 228v-14m19 14v-27m19 27v-19m19 19v-35m19 35v-25" stroke="#5eaa73" stroke-width="8" stroke-linecap="round"/>
+  <path d="M82 282h356l-31 20H113z" fill="#9ab9a0"/><path d="M218 289h84" stroke="#edf7ee" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="78" cy="220" r="23" fill="#fff" stroke="#b9d7be" stroke-width="2"/><path d="M78 207v26m-9-9 9 9 9-9" fill="none" stroke="#23834b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="450" cy="150" r="25" fill="#fff" stroke="#b9d7be" stroke-width="2"/><path d="M438 155h24m-18-10h12m-12 20h12" stroke="#23834b" stroke-width="3" stroke-linecap="round"/>
+</svg>

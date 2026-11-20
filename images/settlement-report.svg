@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" role="img" aria-labelledby="title desc">
+  <title id="title">Settlement report automation illustration</title><desc id="desc">A spreadsheet being transformed into organized report files.</desc>
+  <rect x="30" y="35" width="230" height="180" rx="15" fill="#fff" stroke="#cbdccf" stroke-width="2"/>
+  <rect x="30" y="35" width="230" height="34" rx="15" fill="#e5f2e7"/><path d="M30 55v14h230V55" fill="#e5f2e7"/>
+  <circle cx="49" cy="52" r="4" fill="#23834b"/><circle cx="63" cy="52" r="4" fill="#9bcda6"/><circle cx="77" cy="52" r="4" fill="#bfdcc4"/>
+  <g stroke="#dbe7dc" stroke-width="1"><path d="M45 91h200M45 120h200M45 149h200M45 178h200M95 78v126M145 78v126M195 78v126"/></g>
+  <g fill="#23834b"><rect x="54" y="82" width="31" height="6" rx="3"/><rect x="104" y="82" width="29" height="6" rx="3"/><rect x="154" y="82" width="29" height="6" rx="3"/><rect x="204" y="82" width="29" height="6" rx="3"/></g>
+  <g fill="#bad9c0"><rect x="54" y="99" width="29" height="8" rx="3"/><rect x="104" y="99" width="29" height="8" rx="3"/><rect x="154" y="99" width="29" height="8" rx="3"/><rect x="204" y="99" width="29" height="8" rx="3"/><rect x="54" y="128" width="29" height="8" rx="3"/><rect x="104" y="128" width="29" height="8" rx="3"/><rect x="154" y="128" width="29" height="8" rx="3"/><rect x="204" y="128" width="29" height="8" rx="3"/></g>
+  <path d="M271 126h45m-13-13 13 13-13 13" fill="none" stroke="#23834b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g><path d="M333 65h45l16 16v112h-61z" fill="#e4f2e6" stroke="#9fcba8" stroke-width="2"/><path d="M378 65v18h16" fill="none" stroke="#9fcba8" stroke-width="2"/><path d="M346 105h35m-35 15h35m-35 15h24" stroke="#73b483" stroke-width="5" stroke-linecap="round"/><circle cx="359" cy="168" r="10" fill="#23834b"/><path d="m354 168 4 4 7-9" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <g><path d="M307 169h32l11 11v45h-43z" fill="#fff" stroke="#c5dcc9" stroke-width="2"/><path d="M339 169v12h11" fill="none" stroke="#c5dcc9" stroke-width="2"/><path d="M316 194h22m-22 9h15" stroke="#8cbd98" stroke-width="4" stroke-linecap="round"/></g>
+</svg>
